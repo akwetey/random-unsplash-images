@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f6f6f6;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.gallery-container {
+    width: 100vw;
+    height: 100vh;
+    overflow: scroll;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.gallery-image {
+    width: 240px;
+    height: 320px;
+    padding: 10px;
+    background-color: white;
+}
